@@ -1,101 +1,96 @@
 <h1 align="center">Hi, I'm Melek Bouabid 👋</h1>
-<h3 align="center">Data Science & AI Engineering Student @ Tek-Up University</h3>
+
+<h3 align="center">Engineering Student — Data Science & Artificial Intelligence</h3>
 
 <p align="center">
-  🎓 4th-year Computer Engineering student, specializing in Data Science & Artificial Intelligence <br/>
-  🔁 Non-traditional path: started in Environmental Physics-Chemistry, pivoted into tech and data <br/>
-  🧠 Building end-to-end ML & NLP systems — from data pipelines to deployed apps
+  4th-year Computer Engineering student at Tek-Up (Tunisia), specialized in Data Science & AI.
+  <br/>
+  Coming from an atypical background (B.Sc. in Environmental Physics-Chemistry), which gave me a rigorous,
+  analytical approach to problem-solving. I build fullstack applications, machine learning pipelines,
+  and NLP systems through hands-on academic projects.
 </p>
 
 <p align="center">
-  <a href="mailto:melekbouabid62@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-melekbouabid62%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white" />
-  </a>
-  <a href="www.linkedin.com/in/bouabid-melek-a32212349" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white" />
-  </a>
-  <img src="https://img.shields.io/badge/Open%20to-Internship%20%7C%20Freelance-2ea44f?style=flat" />
+  📧 melekbouabid62@gmail.com &nbsp;|&nbsp;
+  🔗 <a href="#">LinkedIn</a> &nbsp;|&nbsp;
+  💻 <a href="#">GitHub</a>
 </p>
 
 ---
 
-### 🚀 Currently building
-- 🕵️ **CSIS** — Criminal Study Intelligent System: ML + NLP for social-risk detection, with a RAG-based legal assistant grounded in Tunisian law
-- 🎮 **Riot Games Analytics Platform** — end-to-end ML pipeline for League of Legends match/rank prediction and smurf detection
+### 🎓 Education
 
-### 🌱 Diving deeper into
-MLOps, cloud-native AI, and applied NLP/RAG systems
-
-### 💬 Ask me about
-Python, Machine Learning, NLP, Full-Stack Development, or my switch from Chemistry to AI 🔬➡️🤖
+- **Computer Engineering — Data Science & AI**, Tek-Up, Tunisia *(2024 – June 2027, 4th year)*
+- **B.Sc. in Environmental Physics-Chemistry**, Higher Institute of Environmental Sciences and Technologies of Borj Cédria *(2023)*
+- **Baccalaureate**, Mathematics track *(2019)*
 
 ---
 
 ### 🛠️ Tech Stack
 
 **Languages**
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=openjdk&logoColor=white)
-![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
-![C#](https://img.shields.io/badge/-C%23-239120?style=flat-square&logo=c-sharp&logoColor=white)
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+`Python` `SQL` `JavaScript` `Java` `C` `C++` `C#` `HTML` `CSS`
 
-**Machine Learning & Data**
-![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/-NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/-scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![PySpark](https://img.shields.io/badge/-PySpark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
+**Frameworks**
+`Flask` `FastAPI` `Spring Boot` `.NET` `Django` `Node.js` `Flutter`
 
-**Frameworks & Frontend**
-![Flask](https://img.shields.io/badge/-Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Django](https://img.shields.io/badge/-Django-092E20?style=flat-square&logo=django&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/-Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![.NET](https://img.shields.io/badge/-.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Flutter](https://img.shields.io/badge/-Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
-![Tailwind](https://img.shields.io/badge/-Tailwind%20CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
+**Machine Learning / Data**
+`Pandas` `NumPy` `Scikit-learn` `Seaborn` `Matplotlib`
 
-**Databases & Tools**
-![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Neo4j](https://img.shields.io/badge/-Neo4j-008CC1?style=flat-square&logo=neo4j&logoColor=white)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Power BI](https://img.shields.io/badge/-Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
-![MLflow](https://img.shields.io/badge/-MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white)
+**Deep Learning**
+`TensorFlow` `PyTorch` `Keras`
+
+**Big Data**
+`PySpark`
+
+**Frontend**
+`React` `Tailwind CSS`
+
+**Databases**
+`MySQL` `PostgreSQL` `MongoDB` `Neo4j`
+
+**Tools**
+`Git` `Docker` `Power BI` `MLflow`
 
 ---
 
-### 📌 Featured Projects
+### 💼 Experience
 
-| Project | Description | Stack |
-|---|---|---|
-| 🕵️ **[CSIS](https://github.com/melekbouabid/CSIS)** | Social-risk detection & RAG-based legal assistant grounded in Tunisian law | Python, XGBoost, LangChain, Streamlit, Power BI |
-| 🎮 **Riot Games Analytics Platform** | Match/rank prediction & smurf detection for League of Legends | FastAPI, React, MLflow, Scikit-learn |
-| 🎟️ **The Room — Escape Game Booking** | Public booking site + admin dashboard, real-time notifications, PDF/Excel export | React, Express, PostgreSQL, Docker |
-| 🚲 **E-Bike Rental Platform** | P2P e-bike marketplace with JWT auth and Stripe payments | Django REST, React, TypeScript, Stripe |
-| 🧪 **Generator Data Crime** | Synthetic criminology dataset generator for testing pipelines & dashboards | React, Vite |
+- **Mobile Developer Intern (Flutter)** — Private company *(2025, 1 month)*
+  Built a mobile app for Ray-Ban to scan barcodes/QR codes and check in-store product availability.
+
+- **Chemistry Intern** — Hekma (medical company) *(2022, 1 month)*
+  Product preparation and quality control in a laboratory setting.
 
 ---
 
-### 📊 GitHub Stats
+### 🚀 Featured Projects
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=melekbouabid&show_icons=true&theme=tokyonight&hide_border=true" alt="Melek's GitHub stats" height="165"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=melekbouabid&theme=tokyonight&hide_border=true" alt="Melek's streak stats" height="165"/>
-</p>
+#### 🔎 [CSIS — Criminal Study Intelligent System](#)
+Academic ML & NLP project combining Machine Learning (XGBoost, Random Forest) and NLP to detect social risk among young people, plus an intelligent legal assistant built on a RAG architecture (LangChain, vector database) grounded in Tunisian law.
+`Python` `XGBoost` `LangChain` `Streamlit` `Power BI`
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=melekbouabid&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" height="165"/>
-</p>
+#### 🎮 [Riot Games Analytics Platform](#)
+End-to-end ML platform for League of Legends data analysis: match outcome prediction, player rank prediction, and anomaly (smurf) detection.
+`FastAPI` `React` `MLflow` `Scikit-learn` — Riot API integration with caching and retry/backoff.
+
+#### 🏠 [The Room — Escape Game Booking Website](#)
+Full-stack booking platform with a public site (React) and admin dashboard (React), Express + PostgreSQL backend, Dockerized, real-time notifications (SSE), and PDF/Excel export.
+
+#### 🚲 [E-Bike Rental Platform](#)
+Peer-to-peer electric bike rental marketplace built with Django REST Framework, React, TypeScript, JWT authentication, and Stripe integration.
+
+#### 🗂️ [Generator Data Crime](#)
+React/Vite application generating fictional criminology datasets (JSON/CSV) with realistic correlations, for testing data pipelines and dashboards.
 
 ---
 
-<p align="center"><i>🇹🇳 Based in Tunisia — Arabic (native) · French (fluent) · English (fluent)</i></p>
+### 🌐 Languages
+
+- 🇹🇳 Arabic — Native
+- 🇫🇷 French — Fluent
+- 🇬🇧 English — Fluent
+
+---
+
+<p align="center"><i>Open to opportunities in Data Science, AI, and fullstack development.</i></p>
