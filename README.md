@@ -116,6 +116,7 @@
 <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
 <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
 <img src="https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white" />
+<img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
 </p>
 
 ---
@@ -138,6 +139,24 @@
 ---
 
 ### 🚀 Featured Projects
+
+#### ☀️ [SolarVision — Photovoltaic Production Forecasting](#)
+Time series forecasting project (Tek-Up, 2026) on the daily production of a 1 kWp PV system in 9 cities across France, Tunisia and Spain, 2005–2023
+(PVGIS, ERA5/Open-Meteo, NASA POWER, RTE data). Benchmarked 12 models at 1–7 day horizons, including persistence, climatology, ARIMA-Fourier, SARIMAX, VAR,
+Prophet, XGBoost, LSTM, GRU, hybrid ARIMA + LSTM and a global multi-city LSTM, evaluated with a chronological 90/10 split, walk-forward origins, RMSE/MAE/MAPE,
+Diebold-Mariano tests with Holm correction and calibrated 95% prediction intervals (seasonal variance + GARCH), with analyses in R and Python (ADF/KPSS, STL, Granger, Johansen/VECM, GARCH).
+Every model beats persistence (p < 0.001), and knowing the upcoming weather cuts RMSE by about a third. MLOps pipeline with data quality gates, isolated training,
+a versioned model registry (SHA-256 manifest), atomic promotion and rollback and GitHub Actions CI, served by a FastAPI + React app with a RAG assistant (BM25 + LLM), containerized with Docker.
+
+<p>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white" />
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
+<img src="https://img.shields.io/badge/statsmodels-4051B5?style=flat-square&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+<img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" />
+</p>
 
 #### 🔎 [CSIS — Criminal Study Intelligent System](#)
 Trained and compared supervised ML models (XGBoost, Random Forest) to detect social risk among young people,
@@ -197,7 +216,7 @@ correlations, used to test data processing pipelines and analytical dashboards.
 </p>
 
 ---
-
+  
 ### 🌐 Languages
 
 - 🇹🇳 Arabic — Native
