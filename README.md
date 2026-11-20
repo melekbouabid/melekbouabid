@@ -7,7 +7,7 @@
   <br/>
   Coming from an atypical background (B.Sc. in Environmental Physics-Chemistry), which gave me a rigorous,
   analytical approach to problem-solving. I've worked across the full ML/AI lifecycle — from data preparation
-  and model training to deployment via APIs — and built RAG-based conversational assistants, fullstack
+  and model training to deployment via APIs — and built computer vision pipelines, RAG-based AI agents, fullstack
   applications, and NLP systems through both internships and hands-on academic projects.
 </p>
 
@@ -76,12 +76,17 @@
 <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
 <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
 <img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white" />
+<img src="https://img.shields.io/badge/YOLO-111F68?style=for-the-badge&logo=ultralytics&logoColor=white" />
+<img src="https://img.shields.io/badge/ONNX-005CED?style=for-the-badge&logo=onnx&logoColor=white" />
 </p>
 
 **Generative AI / RAG**
 
 <p>
 <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
+<img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
+<img src="https://img.shields.io/badge/Qdrant-DC244C?style=for-the-badge&logo=qdrant&logoColor=white" />
+<img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white" />
 <img src="https://img.shields.io/badge/Vector%20Databases-4B8BBE?style=for-the-badge&logo=databricks&logoColor=white" />
 <img src="https://img.shields.io/badge/Gemini%20API-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" />
 </p>
@@ -116,8 +121,53 @@
 <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
 <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
 <img src="https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white" />
+<img src="https://img.shields.io/badge/DVC-13ADC7?style=for-the-badge&logo=dvc&logoColor=white" />
 <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
 </p>
+
+---
+
+### 📜 Certifications
+
+**INE professional certifications** (exam-based) — click a certificate or its name to verify it.
+
+<table>
+<tr>
+<td align="center" width="50%">
+<a href="https://certs.ine.com/9ed032ee-82d8-4e80-a817-c3f6548569c1"><img src="assets/certs/ine-ejds.png" width="380" alt="INE eJDS certificate" /></a><br/>
+<a href="https://certs.ine.com/9ed032ee-82d8-4e80-a817-c3f6548569c1"><b>eJDS — Junior Data Scientist</b></a><br/>
+INE · Nov 2026 · ID 200196502
+</td>
+<td align="center" width="50%">
+<a href="https://certs.ine.com/459386b2-1f67-4907-8ed1-e5a7753b16ee"><img src="assets/certs/ine-icca.png" width="380" alt="INE ICCA certificate" /></a><br/>
+<a href="https://certs.ine.com/459386b2-1f67-4907-8ed1-e5a7753b16ee"><b>ICCA — INE Certified Cloud Associate</b></a><br/>
+INE · Nov 2026 · ID 201013234
+</td>
+</tr>
+</table>
+
+**Generative AI courses** (Scrimba · Coursera)
+
+<table>
+<tr>
+<td align="center" width="25%">
+<a href="https://coursera.org/verify/Q1G5UR5OVAEU"><img src="assets/certs/coursera-rag.png" width="180" alt="Retrieval-Augmented Generation (RAG) with Embeddings & Vector Databases certificate" /></a><br/>
+<a href="https://coursera.org/verify/Q1G5UR5OVAEU"><sub><b>Retrieval-Augmented Generation (RAG) with Embeddings & Vector Databases</b></sub></a>
+</td>
+<td align="center" width="25%">
+<a href="https://coursera.org/verify/5TUUORIMLGT4"><img src="assets/certs/coursera-ai-eng.png" width="180" alt="Intro to AI Engineering certificate" /></a><br/>
+<a href="https://coursera.org/verify/5TUUORIMLGT4"><sub><b>Intro to AI Engineering</b></sub></a>
+</td>
+<td align="center" width="25%">
+<a href="https://coursera.org/verify/9H3KM6ZEIQ12"><img src="assets/certs/coursera-oss-models.png" width="180" alt="Open-source AI Models certificate" /></a><br/>
+<a href="https://coursera.org/verify/9H3KM6ZEIQ12"><sub><b>Open-source AI Models</b></sub></a>
+</td>
+<td align="center" width="25%">
+<a href="https://coursera.org/verify/L7UTP5SEZRV2"><img src="assets/certs/coursera-cloudflare.png" width="180" alt="Deploy AI Apps with Cloudflare certificate" /></a><br/>
+<a href="https://coursera.org/verify/L7UTP5SEZRV2"><sub><b>Deploy AI Apps with Cloudflare</b></sub></a>
+</td>
+</tr>
+</table>
 
 ---
 
@@ -140,9 +190,31 @@
 
 ### 🚀 Featured Projects
 
+#### 💊 [Tujya — Pill Identification with Computer Vision & a Medication AI Agent](https://github.com/melekbouabid/syRX)
+Solo project (Tek-Up, 2026). Snap a photo of one or more pills: a **YOLO11** model detects each pill and an
+**EfficientNetV2-S** classifier trained by transfer learning identifies it among 380 pills of the public NLM C3PI
+dataset (top-1 0.909), always showing its confidence. Tujya then checks drug–drug interactions (DDInter) and a
+**LangGraph agent** answers follow-up questions with **hybrid RAG** (Qdrant, BM25, reranker) over openFDA labels and
+PubMed, citing its sources and never giving a dosage. Full MLOps: DVC, MLflow Model Registry (champion/challenger),
+5 detectors and 6 classifiers compared with Optuna, ONNX export, drift monitoring (KS, PSI), RAGAS evaluation,
+an MCP server, GitHub Actions CI/CD and the whole stack in one Docker Compose command.
+
+<p>
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
+<img src="https://img.shields.io/badge/YOLO11-111F68?style=flat-square&logo=ultralytics&logoColor=white" />
+<img src="https://img.shields.io/badge/ONNX-005CED?style=flat-square&logo=onnx&logoColor=white" />
+<img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white" />
+<img src="https://img.shields.io/badge/Qdrant-DC244C?style=flat-square&logo=qdrant&logoColor=white" />
+<img src="https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white" />
+<img src="https://img.shields.io/badge/DVC-13ADC7?style=flat-square&logo=dvc&logoColor=white" />
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+</p>
+
 #### ☀️ [SolarVision — Photovoltaic Production Forecasting](#)
 Time series forecasting project (Tek-Up, 2026) on the daily production of a 1 kWp PV system in 9 cities across France, Tunisia and Spain, 2005–2023
-(PVGIS, ERA5/Open-Meteo, NASA POWER, RTE data). Benchmarked 12 models at 1–7 day horizons, including persistence, climatology, ARIMA-Fourier, SARIMAX, VAR,
+(PVGIS, ERA5/Open-Meteo, NASA POWER, RTE data). Benchmarked 14 models at 1–7 day horizons, including persistence, climatology, ARIMA-Fourier, SARIMAX, VAR,
 Prophet, XGBoost, LSTM, GRU, hybrid ARIMA + LSTM and a global multi-city LSTM, evaluated with a chronological 90/10 split, walk-forward origins, RMSE/MAE/MAPE,
 Diebold-Mariano tests with Holm correction and calibrated 95% prediction intervals (seasonal variance + GARCH), with analyses in R and Python (ADF/KPSS, STL, Granger, Johansen/VECM, GARCH).
 Every model beats persistence (p < 0.001), and knowing the upcoming weather cuts RMSE by about a third. MLOps pipeline with data quality gates, isolated training,
@@ -159,7 +231,7 @@ a versioned model registry (SHA-256 manifest), atomic promotion and rollback and
 </p>
 
 #### 🔎 [CSIS — Criminal Study Intelligent System](#)
-Trained and compared supervised ML models (XGBoost, Random Forest) to detect social risk among young people,
+Trained and compared supervised ML models (XGBoost, Random Forest; 98.2% accuracy on the risk score) to detect social risk among young people,
 with data cleaning, feature engineering and NLP for text content analysis. Also designed an intelligent legal
 assistant on a RAG architecture (LangChain + vector database) grounded in Tunisian law, reducing hallucination
 risk, with results presented through a Streamlit interface and a Power BI dashboard.
@@ -169,19 +241,6 @@ risk, with results presented through a Streamlit interface and a Power BI dashbo
 <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" />
 <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" />
 <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black" />
-</p>
-
-#### 🎮 [Riot Games Analytics Platform](#)
-End-to-end ML platform on League of Legends data: classification/regression models to predict match outcomes
-and player rank, plus anomaly detection to flag suspicious accounts (smurfs). Full pipeline with Riot API
-collection (caching, retry/backoff), Scikit-learn training, MLflow experiment tracking, and a FastAPI backend
-consumed by a React frontend.
-
-<p>
-<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
-<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
-<img src="https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white" />
-<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" />
 </p>
 
 #### 🏠 [The Room — Escape Game Booking Website](#)
